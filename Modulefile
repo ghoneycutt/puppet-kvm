@@ -1,5 +1,5 @@
 name    'ghoneycutt-kvm'
-version '1.0.0'
+version '1.1.0'
 
-dependency 'ghoneycutt/generic', '>= 1.0.0'
-dependency 'ghoneycutt/x11', '>= 1.0.0'
+dependency 'ghoneycutt/common', '>= 1.0.0'
+dependency 'ghoneycutt/x', '>= 1.0.0'
