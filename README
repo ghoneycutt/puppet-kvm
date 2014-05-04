@@ -2,4 +2,8 @@ kvm
 
 Released 20100629 - Garrett Honeycutt - GPLv2
 
+Patched 20140410 - Samir Cury
+
 Manage KVM (http://www.linux-kvm.org)
+
+This module was tested on CentOS 6. Might work in Fedora if the package names are the same. Comments/Suggestions/Patches are welcome. Take a look at the project on GitHub
