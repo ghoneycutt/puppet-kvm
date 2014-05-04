@@ -6,4 +6,14 @@ Patched 20140410 - Samir Cury
 
 Manage KVM (http://www.linux-kvm.org)
 
-This module was tested on CentOS 6. Might work in Fedora if the package names are the same. Comments/Suggestions/Patches are welcome. Take a look at the project on GitHub
+This module was tested on CentOS 6. Might work in Fedora if the package names are the same. 
+
+Comments/Suggestions/Patches are welcome. Take a look at the project on GitHub.
+
+WARNING : This module looks far from "pretty", it will probably have flaws in anything that is not CentOS6.
+
+It worked for me after I modified few things from ghoneycutt, so I uploaded the "works OOTB on CentOS 6" version.
+
+It probably doesn't comply with lints, best practices and all other fancy things. I won't have time to make it better either. Feel free to submit patches.
+
+This is a quick-and-dirty solution that does the job for what it says here. On Vanilla CentOS 6, I ran this and start libvirtd successfully. Enjoy!
