@@ -3,13 +3,11 @@
 # This module manages kvm
 #
 # Requires:
-#   class generic
-#   class x::headless
+#   class common 
 #
 class kvm {
 
-    include generic
-    include x::headless
+    include common 
 
     package {[
         "kvm",
@@ -17,14 +15,7 @@ class kvm {
         "libvirt",
         "libvirt-python",
         "python-virtinst",
-        "qemu",
         "qemu-img",
-        "qspice-libs"
     ]:} # package
 
-    # script to start xvfb/fluxbox/x11vnc
-    file { "/usr/local/sbin/fluxvnc.sh":
-        content => template("kvm/fluxvnc.sh.erb"),
-        mode    => 754,
-    } # file
 } # class kvm
